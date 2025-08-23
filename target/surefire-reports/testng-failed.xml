@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [User Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Sanity and Smoke Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.wipro.testng.lab19august_AddtoCart">
+        <methods>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+          <include name="beforeclass"/>
+          <include name="beforesuite"/>
+          <include name="beforemethod"/>
+          <include name="afterclass"/>
+          <include name="aftemethod"/>
+          <include name="cart"/>
+        </methods>
+      </class> <!-- com.wipro.testng.lab19august_AddtoCart -->
+    </classes>
+  </test> <!-- Sanity and Smoke Tests(failed) -->
+</suite> <!-- Failed suite [User Suite] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-23T14:06:46 IST" name="Default suite" finished-at="2025-08-23T14:07:10 IST" duration-ms="24110">
+    <groups>
+    </groups>
+    <test started-at="2025-08-23T14:06:46 IST" name="Default test" finished-at="2025-08-23T14:07:10 IST" duration-ms="24110">
+      <class name="com.wipro.testng.TESTCASE">
+        <test-method signature="login()[pri:0, instance:com.wipro.testng.TESTCASE@1c7696c6]" started-at="2025-08-23T14:06:46 IST" name="login" finished-at="2025-08-23T14:07:03 IST" duration-ms="16796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testcheckbox()[pri:0, instance:com.wipro.testng.TESTCASE@1c7696c6]" started-at="2025-08-23T14:07:03 IST" name="testcheckbox" finished-at="2025-08-23T14:07:10 IST" depends-on-methods="com.wipro.testng.TESTCASE.login" duration-ms="7209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcheckbox -->
+      </class> <!-- com.wipro.testng.TESTCASE -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
