@@ -4,6 +4,7 @@
         
         <classes>
             <class name="com.wipro.testng.lab19august_AddtoCart"/>
+            
         </classes>
     </test>
 </suite>
